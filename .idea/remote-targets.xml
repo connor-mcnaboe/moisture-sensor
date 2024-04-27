@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="pi@192.168.140.216:22" type="ssh/sftp" uuid="636eee27-d307-471f-91f8-05fa9ce5bc31">
+        <config>
+          <option name="projectRootOnTarget" value="/home/pi/moisture-reader" />
+          <option name="serverName" value="pi@192.168.140.216:22 password" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config>
+            <option name="cargoPath" value="/home/pi/.cargo/bin" />
+            <option name="rustcPath" value="/home/pi/.cargo/bin" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
